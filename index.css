@@ -403,7 +403,7 @@ section.container6 .itembuttons .bx-cart-alt {
 
 footer {
   background-color: #000000;
-  height: 300px;
+  height: 600px;
   width: 1400px;
   margin-top: 4rem;
 }
@@ -412,10 +412,13 @@ footer .referralprogram {
   position: relative;
   top: 3rem;
   left: 3rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 footer .referral {
   color: #fff;
   margin-left: 1rem;
+  line-height: 1.5rem;
 }
 footer .footerimg2 {
   margin-left: 30rem;
@@ -423,4 +426,41 @@ footer .footerimg2 {
 footer .delivery {
   margin-left: 1rem;
   color: #fff;
+  line-height: 1.5rem;
+}
+footer .midfooter {
+  display: flex;
+  gap: 6rem;
+  margin-left: 3rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 2rem;
+}
+footer .middivf1 {
+  color: #fff;
+  margin-top: 8rem;
+  line-height: 2rem;
+}
+footer .middivf2 {
+  color: #fff;
+  margin-top: 8rem;
+  line-height: 2rem;
+}
+footer .middivf3 {
+  color: #fff;
+  margin-top: 8rem;
+  line-height: 2rem;
+}
+footer .middivf4 {
+  color: #fff;
+  margin-top: 8rem;
+  line-height: 2rem;
+}
+footer .middivf5 {
+  color: #fff;
+  margin-top: 8rem;
+  line-height: 2rem;
+}
+footer .appstore {
+  display: flex;
+  gap: 1rem;
 }/*# sourceMappingURL=index.css.map */

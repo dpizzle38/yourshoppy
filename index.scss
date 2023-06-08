@@ -462,7 +462,7 @@ section.container6{
 
 footer{
   background-color: $tertiary;
-  height: 300px;
+  height: 600px;
   width:1400px;
   margin-top: 4rem;
   
@@ -471,10 +471,14 @@ footer{
     position: relative;
     top:  3rem;
     left: 3rem;
+    padding-bottom: 4rem;
+
+    border-bottom: 1px solid #ffffff66;
   }
   .referral{
     color: $primary;
     margin-left: 1rem;
+    line-height: 1.5rem;
   }
 
 
@@ -485,7 +489,53 @@ footer{
   .delivery{
     margin-left:1rem;
     color: $primary;
+    line-height: 1.5rem;
+  }
+  .midfooter{
+    display: flex;
+    gap: 6rem;
+    margin-left: 3rem;
+    border-bottom: 1px solid #ffffff66;
+    padding-bottom: 2rem;
   }
 
+  .middivf1{
+    color: $primary;
+    margin-top: 8rem;
+    line-height: 2rem;
+  }
+
+  .middivf2{
+    color: $primary;
+    margin-top: 8rem;
+    line-height: 2rem;
+  }
+
+  .middivf3{
+    color: $primary;
+    margin-top: 8rem;
+    line-height: 2rem;
+  }
  
+  .middivf4{
+    color: $primary;
+    margin-top: 8rem;
+    line-height: 2rem;
+  }
+
+  .middivf5{
+    color: $primary;
+    margin-top: 8rem;
+    line-height: 2rem;
+  }
+
+  .appstore{
+    display: flex;
+    gap: 1rem;
+  }
+
+  .bottomfooter{
+    
+  }
 }
+
