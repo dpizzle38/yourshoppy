@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Poppins:wght@300;400;500;600;700;900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -150,19 +150,19 @@ header li {
 .hero span {
   text-decoration: underline;
   position: relative;
-  bottom: 5rem;
+  bottom: 10rem;
   left: 10.5rem;
 }
 .hero .bx-right-arrow-alt {
   position: relative;
-  bottom: 5rem;
-  left: 11rem;
+  bottom: 10rem;
+  left: 10.5rem;
 }
 .hero img {
   position: relative;
   display: inline-block;
   left: 20rem;
-  bottom: 2rem;
+  bottom: 4rem;
 }
 
 section.container1 div {
@@ -190,8 +190,15 @@ section.container2 {
 }
 section.container2 .explore {
   display: flex;
+  gap: 58rem;
   margin: auto;
-  justify-content: space-around;
+  margin-left: 8rem;
+}
+section.container2 .explore h2 {
+  font-size: 30px;
+}
+section.container2 .explore a {
+  color: #5AC0C0;
 }
 section.container2 .items1 {
   display: flex;
@@ -403,7 +410,7 @@ section.container6 .itembuttons .bx-cart-alt {
 
 footer {
   background-color: #000000;
-  height: 600px;
+  height: 650px;
   width: 1400px;
   margin-top: 4rem;
 }
@@ -463,4 +470,22 @@ footer .middivf5 {
 footer .appstore {
   display: flex;
   gap: 1rem;
+}
+footer .bottomfooter {
+  display: flex;
+  gap: 40rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+footer .bottomfooter p {
+  color: #fff;
+}
+footer .bottomfooter .typetext {
+  color: #AB4E1A;
+}
+footer .bottomfooter .bx-copyright {
+  color: #fff;
+}
+footer .bottomfooter span {
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */

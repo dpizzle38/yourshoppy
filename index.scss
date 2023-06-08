@@ -1,8 +1,7 @@
 @import "./components/variable";
 @import "./components/reset";
 @import "./components/mediaquery";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Poppins:wght@300;400;500;600;700;900&display=swap");
 *{
   margin: 0;
   padding: 0;
@@ -150,21 +149,23 @@ li{
   span{
     text-decoration: underline;
     position: relative;
-    bottom: 5rem;
+    bottom: 10rem;
     left: 10.5rem;
+    
   }
 
   .bx-right-arrow-alt{
     position: relative;
-    bottom: 5rem;
-    left: 11rem;
+    bottom: 10rem;
+    left: 10.5rem;
   }
 
   img{
     position: relative;
     display:inline-block;
     left: 20rem;
-    bottom: 2rem;
+    bottom: 4rem;
+    
   }
 
   height : 478px;
@@ -208,10 +209,16 @@ div{
 section.container2{
   margin-top: 2rem;
   .explore{
+    h2{
+      font-size: 30px;
+    }
+    a{
+      color:$lightblue;
+    }
     display: flex;
+    gap: 58rem;
     margin: auto;
-    justify-content: space-around;
-    
+    margin-left: 8rem;
   }
   
   .items1{
@@ -462,7 +469,7 @@ section.container6{
 
 footer{
   background-color: $tertiary;
-  height: 600px;
+  height: 650px;
   width:1400px;
   margin-top: 4rem;
   
@@ -535,7 +542,23 @@ footer{
   }
 
   .bottomfooter{
+    display: flex;
+    gap: 40rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
     
+  p{
+    color: $primary;
   }
+  .typetext{
+    color: #AB4E1A;
+  }
+  .bx-copyright{
+    color: $primary;
+  }
+  span{
+    color:$primary;
+  }
+}
 }
 
